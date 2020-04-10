@@ -142,6 +142,7 @@ def update(frame_id, all_frames):
     #ln.set_set_label(all_frames[frame_id][0])
     return ln
 
+
 ani = animation.FuncAnimation(fig, update, frames=np.arange(nframes + 100), fargs=(aframes,), init_func=init)
 #plt.show()
     
