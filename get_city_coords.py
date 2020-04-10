@@ -3,7 +3,7 @@ from datetime import datetime
 import json
 import pandas as pd
 
-gmaps = googlemaps.Client(key='AIzaSyAZu3lFrESMW38bsSHKIkg8aeLkeg9x6pU')
+gmaps = googlemaps.Client(key='REMOVED')
 
 cities = {"Albany" : 104,
           "Atlanta" : 122,
