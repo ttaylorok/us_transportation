@@ -23,7 +23,8 @@ df = pd.DataFrame(points, columns = ["long","lat"])
 df.drop_duplicates(inplace = True)
 df['node_id'] = np.arange(len(df.index))
 
-df.to_csv("points_50.csv")
+
+df.to_csv("points_every_p1_deg.csv")
 
 G=nx.Graph()
 
